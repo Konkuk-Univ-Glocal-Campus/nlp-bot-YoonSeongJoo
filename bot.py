@@ -16,7 +16,7 @@ print("오늘 어때요?")
 while True:
     # wait for the user to enter some text
     user_input = input("> ")
-    if user_input.lower() == "종료":
+    if user_input == "종료":
         # if they typed in '종료' break out of the loop
         break
     else:
